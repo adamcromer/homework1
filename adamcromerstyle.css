@@ -1,0 +1,61 @@
+body {
+    background-color:#F7F7F2;
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+    line-height:150%;
+}
+
+h1 {
+    margin:0px;
+    font-size:40px;
+    font-family:"Palatino", Georgia, Times, serif;
+    text-align:center;
+    background-color:#2B303A;
+    color:#F7F7F2;
+    padding:30px;
+}
+
+h2 {
+    background-color:#56e39f;
+    padding: 20px 20px 30px 20px;
+    width:160px;
+    color:#F7F7F2;
+    
+}
+
+ul {
+    font-weight:bold;
+}
+
+a {
+    color:#2660AF;
+}
+
+.container {
+    margin:0 auto;
+    width:1024px;
+}
+
+#Main-Bio,
+#Bio-Image,
+#Contact-Info {
+    float:left;
+}
+
+#Main-Bio {
+    width:70%;
+}
+
+#Contact-Info {
+    width:30%;
+}
+
+#Bio-Image {
+    margin-right:20px;
+}
+
+#Bio-Text {
+    background-color:#b6b6df;
+    color:#F7F7F2;
+}
