@@ -9,7 +9,7 @@ body {
 
 header {
     margin:0px;
-    font-size:16px;
+    font-size:14px;
     font-family:"Palatino", Georgia, Times, serif;
     text-align:center;
     top:50%;    
@@ -23,18 +23,23 @@ header {
 #Header-Name {
     background-color:#F7F7F2;
     margin: 0px 0px 0px 200px;
-    width: 300px;
+    width: 250px;
     height: 60px;
     padding: 35px 0px 5px 0px;
 }
 
 h2 {
-    background-color:#56e39f;
-    padding: 20px 20px 30px 20px;
+    background-color:#F7F7F2;
+    padding: 30px 20px 30px 20px;
     width:160px;
-    color:#F7F7F2;
-    
+    color:#2B303A;
+    margin:20px 10px 20px 10px;
+    border-top:10px solid #56e39f;
+    border-left:10px solid #56e39f;
+    border-right:5px solid #F7F7F2;
+    border-bottom:5px solid #F7F7F2;
 }
+
 
 ul {
     font-weight:bold;
@@ -71,4 +76,11 @@ a {
     background-color:#b6b6df;
     color:#F7F7F2;
     margin: 10px 20px 10px 225px;
+}
+
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
 }
