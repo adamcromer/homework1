@@ -33,11 +33,11 @@ h2 {
     padding: 30px 20px 30px 20px;
     width:160px;
     color:#2B303A;
-    margin:20px 10px 20px 10px;
+    margin:20px 10px 20px 0px;
     border-top:10px solid #56e39f;
     border-left:10px solid #56e39f;
-    border-right:5px solid #F7F7F2;
-    border-bottom:5px solid #F7F7F2;
+    border-right:5px solid #56e39f;
+    border-bottom:5px solid #56e39f;
 }
 
 
