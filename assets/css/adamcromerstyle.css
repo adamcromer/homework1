@@ -14,7 +14,7 @@ header {
     top:50%;    
     color:#2B303A;
     background-color:#56e39f;
-    padding:0px 30px 0px 30px;
+    padding:0px 30px 0px 0px;
     border-color:#56e39f;
     
 }
@@ -28,12 +28,13 @@ header {
     text-align:center;
 }
 
-#NavBarLinks {
-    float:left;
-    margin:20px auto;
-    padding:0;
-    width:20px;
+.NavBarLinks {
+    float:right;
+    margin:0px 20px 0px 20px;
+    padding:0 5px 0px 5px;
+    width:200px;
     text-align:right;
+    background-color:#F7F7F2;
 }
 
 h2 {
@@ -44,8 +45,8 @@ h2 {
     margin:20px 10px 20px 0px;
     border-top:10px solid #56e39f;
     border-left:10px solid #56e39f;
-    border-right:5px solid #56e39f;
-    border-bottom:5px solid #56e39f;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
 }
 
 
@@ -58,7 +59,7 @@ a {
 }
 
 .container {
-    margin:0 auto;
+    margin:0 200px 0 200px;
     width:1024px;
 }
 
@@ -84,7 +85,7 @@ a {
 #Bio-Text {
     background-color:#b6b6df;
     color:#F7F7F2;
-    margin: 10px 20px 10px 225px;
+    margin: 10px 20px 30px 225px;
 }
 
 
