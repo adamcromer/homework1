@@ -7,14 +7,25 @@ body {
     line-height:150%;
 }
 
-h1 {
+header {
     margin:0px;
-    font-size:40px;
+    font-size:16px;
     font-family:"Palatino", Georgia, Times, serif;
     text-align:center;
+    top:50%;    
     color:#2B303A;
+    background-color:#56e39f;
+    padding:0px 30px 0px 30px;
+    border-color:#56e39f;
+    
+}
+
+#Header-Name {
     background-color:#F7F7F2;
-    padding:30px;
+    margin: 0px 0px 0px 200px;
+    width: 300px;
+    height: 60px;
+    padding: 35px 0px 5px 0px;
 }
 
 h2 {
