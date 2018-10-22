@@ -1,5 +1,6 @@
 body {
-    background-color:#F7F7F2;
+    color:#F7F7F2;
+    background-color:#2B303A;
     margin:0px;
     padding:0px;
     font-size:18px;
@@ -11,8 +12,8 @@ h1 {
     font-size:40px;
     font-family:"Palatino", Georgia, Times, serif;
     text-align:center;
-    background-color:#2B303A;
-    color:#F7F7F2;
+    color:#2B303A;
+    background-color:#F7F7F2;
     padding:30px;
 }
 
@@ -58,4 +59,5 @@ a {
 #Bio-Text {
     background-color:#b6b6df;
     color:#F7F7F2;
+    margin: 10px 20px 10px 225px;
 }
