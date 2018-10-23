@@ -1,6 +1,6 @@
 body {
     color:#F7F7F2;
-    background-color:#2B303A;
+    background-image:url(/hw1/assets/images/pink\ dust.png);
     margin:0px;
     padding:0px;
     font-size:18px;
@@ -25,6 +25,7 @@ header {
     height: 60px;
     padding: 35px 0px 5px 0px;
     text-align:center;
+    border-bottom:1px solid #2B303A;
 }
 
 .NavBarLinks {
@@ -70,11 +71,6 @@ a {
     color:#2660AF;
 }
 
-.container {
-    margin:0 200px 0 200px;
-    width:1024px;
-}
-
 #Main-Bio,
 #Bio-Image,
 #Contact-Info {
@@ -82,7 +78,9 @@ a {
 }
 
 #Main-Bio {
-    width:70%;
+    width:920px;
+    margin:0 200px 0 200px;
+    background-color:#F7F7F2;
 }
 
 #Contact-Info {
@@ -115,3 +113,4 @@ footer {
     padding:40px 0px 0px 0px;
     text-align:right;
 }
+
