@@ -1,6 +1,6 @@
 body {
-    color:#F7F7F2;
-    background-image:url(/hw1/assets/images/pinkdust.png);
+    color:#444349;
+    background-image:url(/assets/images/stardust.png);
     margin:0px;
     padding:0px;
     font-size:18px;
@@ -11,8 +11,8 @@ header {
     margin:0px;
     font-size:14px;
     font-family:"Palatino", Georgia, Times, serif;  
-    color:#2B303A;
-    background-color:#56e39f;
+    color:#444349;
+    background-color:#abc4ab;
     padding:0px 30px 0px 0px;
     border-color:#56e39f;
     position:relative;
@@ -54,7 +54,7 @@ h2 {
     background-color:#F7F7F2;
     padding: 30px 20px 30px 20px;
     width:160px;
-    color:#2B303A;
+    color:#444349;
     margin:20px 10px 20px 0px;
     border-top:10px solid #56e39f;
     border-left:10px solid #56e39f;
@@ -68,7 +68,7 @@ ul {
 }
 
 a {
-    color:#2660AF;
+    color:#444349;
 }
 
 #Main-Bio,
@@ -93,8 +93,8 @@ a {
 }
 
 #Bio-Text {
-    background-color:#b6b6df;
-    color:#F7F7F2;
+    background-color:#ffc9b5;
+    color:#444349;
     margin: 10px 20px 30px 225px;
 }
 
@@ -108,7 +108,7 @@ a {
 footer {
     clear:both;
     height:50px;
-    background-color:#56e39f;
+    background-color:#dcd6f7;
     margin:20px 0px 0px 0px;
     padding:40px 0px 0px 0px;
     text-align:right;
