@@ -7,25 +7,37 @@ body {
     line-height:150%;
 }
 
+/* .head {
+    width:960px;
+    height:125px;
+    background-color:pink;
+    padding:0;
+    margin-left: 150px;
+} */
 header {
     margin:0px;
     font-size:14px;
     font-family:"Palatino", Georgia, Times, serif;  
     color:#444349;
     background-color:#abc4ab;
-    padding:0px 30px 0px 0px;
+    padding:0px;
     border-color:#56e39f;
-    position:relative;
+    /* position:relative; */
 }
 
 #Header-Name {
-    background-color:#F7F7F2;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 0px 0px 150px;
     width: 250px;
     height: 60px;
     padding: 35px 0px 5px 0px;
     text-align:center;
     border-bottom:1px solid #2B303A;
+    background-color:#F7F7F2;
+}
+
+nav {
+    float:right;
+    /* margin-right:120px; */
 }
 
 .NavBarLinks {
@@ -35,10 +47,10 @@ header {
     width:60px;
     text-align:center;
     background-color:#F7F7F2;
-    position:absolute;
+    /* position:absolute; */
     bottom:0;
 }
-
+/* 
 .NavLeft {
     right:170px;
 }
@@ -48,7 +60,7 @@ header {
 }
 .NavRight {
     right:10px;
-}
+} */
 
 h2 {
     background-color:#F7F7F2;
@@ -78,8 +90,8 @@ a {
 }
 
 #Main-Bio {
-    width:920px;
-    margin:0 200px 0 200px;
+    width:960px;
+    margin:0 200px 0 150px;
     background-color:#F7F7F2;
 }
 
