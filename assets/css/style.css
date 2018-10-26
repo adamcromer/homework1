@@ -15,7 +15,7 @@ header {
     background-color:#abc4ab;
     padding:0px;
     height:100px;
-    /* border-bottom:10px solid #dcd6f7; */
+    border-bottom:3px solid #dcd6f7;
 }
 
 #Head-Cont {
@@ -31,21 +31,23 @@ header {
     height: 65px;
     padding: 35px 0px 0px 0px;
     text-align:center;
-    /* border-bottom:1px solid #2B303A; */
     background-color:#F7F7F2;
     float:left;
+    font-size:24px;
+    font-weight:bolder;
 }
 
 nav {
     float:right;
-
 }
 
 .NavBarLinks {
     float:left;
-    margin:35px 20px 0px 0px;
+    margin:35px 0px 0px 20px;
     padding:0px;
     text-align:right;
+    font-size:18px;
+    font-weight:bold;
 }
 
 .NavRight {
@@ -56,11 +58,10 @@ nav {
 h2 {
     background-color:#F7F7F2;
     padding: 30px 20px 30px 20px;
-    width:160px;
     color:#444349;
     margin:40px 10px 20px 30px;
-    border-top:10px solid black;
-    border-left:10px solid black;
+    border-top:1px solid black;
+    border-left:1px solid black;
     border-right:1px solid black;
     border-bottom:1px solid black;
 }
@@ -72,6 +73,7 @@ ul {
 
 a {
     color:#444349;
+    text-decoration:none;
 }
 
 #Main-Bio,
@@ -82,8 +84,10 @@ a {
 
 #Main-Bio {
     width:920px;
-    margin:0px 0px 0px 175px;
+    margin:25px 0px 40px 175px;
     padding:0px;
+    background-color:#F7F7F2;
+    color:#444349;
 }
 
 #Contact-Info {
@@ -97,11 +101,7 @@ a {
 }
 
 #Bio-Text {
-    background-color:#F7F7F2;
-    color:#444349;
-    /* margin: 10px 40px 30px 20px; */
-    /* float:right; */
-    /* padding-right:20px; */
+    
 }
 
 p {
@@ -118,9 +118,12 @@ footer {
     clear:both;
     height:50px;
     background-color:#dcd6f7;
-    margin:20px 0px 0px 0px;
+    margin:10px 0px 0px 0px;
     padding:40px 0px 0px 0px;
-    text-align:right;
-    border-top:10px solid #abc4ab;
+    text-align:center;
+    border-top:5px solid #abc4ab;
+    font-style:italic;
+    font-size:14px;
+    font-family: 'Playfair Display', serif;
 }
 
