@@ -5,12 +5,13 @@ body {
     padding:0px;
     font-size:18px;
     line-height:150%;
+    font-family: 'Raleway', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header {
     margin:0px;
     font-size:14px;
-    font-family: 'Playfair Display', serif;  
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif;  
     color:#444349;
     background-color:#abc4ab;
     padding:0px;
@@ -60,10 +61,10 @@ h2 {
     padding: 30px 20px 30px 20px;
     color:#444349;
     margin:40px 10px 20px 30px;
-    border-top:1px solid black;
-    border-left:1px solid black;
-    border-right:1px solid black;
     border-bottom:1px solid black;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-size:24px;
+    font-weight:bolder;
 }
 
 
@@ -100,9 +101,9 @@ a {
     float:right;
 }
 
-#Bio-Text {
+/* #Bio-Text {
     
-}
+} */
 
 p {
     margin:25px 50px 25px 25px;
@@ -118,7 +119,7 @@ footer {
     clear:both;
     height:50px;
     background-color:#dcd6f7;
-    margin:10px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
     padding:40px 0px 0px 0px;
     text-align:center;
     border-top:5px solid #abc4ab;
@@ -127,3 +128,7 @@ footer {
     font-family: 'Playfair Display', serif;
 }
 
+#Footer-Text {
+    padding:0px;
+    margin:20px 0px 0px 0px;
+}
