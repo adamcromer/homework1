@@ -14,24 +14,32 @@ header {
     color:#444349;
     background-color:#abc4ab;
     padding:0px;
-    background-opacity:
+    height:100px;
+}
+
+#Head-Cont {
+    width:920px;
+    margin:0px 0px 0px 150px;
+    padding:0px;
+    background-color:red;
+    height:100px;
 }
 
 #Header-Name {
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 0px;
     width: 250px;
-    height: 60px;
+    height: 65px;
     padding: 35px 0px 0px 0px;
     text-align:center;
-    border-bottom:1px solid #2B303A;
+    /* border-bottom:1px solid #2B303A; */
     background-color:#F7F7F2;
     float:left;
 }
 
 nav {
     float:right;
-    padding-top:101px;
-    margin:0px 133px;
+    padding-top:80px;
+    margin:0px;
 }
 
 .NavBarLinks {
