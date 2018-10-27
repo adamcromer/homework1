@@ -58,9 +58,9 @@ nav {
 
 h2 {
     background-color:#F7F7F2;
-    padding: 30px 20px 30px 20px;
+    padding: 10px 20px 30px 20px;
     color:#444349;
-    margin:40px 10px 20px 30px;
+    margin:40px 30px 20px 30px;
     border-bottom:1px solid black;
     font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
     font-size:24px;
@@ -85,8 +85,8 @@ a {
 
 #Main-Bio {
     width:920px;
-    margin:25px 0px 40px 175px;
-    padding:0px;
+    margin:35px 0px 60px 175px;
+    padding:0px 0px 30px 0px;
     background-color:#F7F7F2;
     color:#444349;
 }
@@ -96,17 +96,15 @@ a {
 }
 
 #Bio-Image {
-    margin-right:20px;
-    margin-bottom:60px;
-    float:right;
+    /* margin-top:30px;
+    margin-left:80px; */
+    margin:30px 20px 30px 50px;
+    float:left;
 }
 
-/* #Bio-Text {
-    
-} */
+#Bio-Text {
+    margin: 50px 50px 20px 280px;
 
-p {
-    margin:25px 50px 25px 25px;
 }
 
 .clearfix::after {
