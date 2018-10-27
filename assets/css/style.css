@@ -89,7 +89,7 @@ a {
     float:left;
 }
 
-#Main-Bio {
+#Main-Bio { 
     width:920px;
     margin:35px 0px 60px 175px;
     padding:0px 0px 30px 0px;
@@ -148,12 +148,48 @@ footer {
 .PortSquares {
     width:300px;
     height:200px;
-    /* background-color:red; */
     float:left;
     margin:20px 0px 20px 105px;
 }
 
+.PortBanners {
+    background-color:#dcd6f7;
+    margin-top:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    color:#444349;
+    font-weight:bold;
+    font-size:22px;
+    transition: background-image 0.3s ease;
+}
+
+.PortBanners:hover {
+    background-color:#444349;
+    color:#F7F7F2;
+    font-weight:bolder;
+    font-size:26px;
+}
+
 #PortImage1 {
+    background-image:url(/assets/images/moth1.png);
+    width:300px;
+    height:200px;
+}
+
+#PortImage2 {
+    background-image:url(/assets/images/moth1.png);
+    width:300px;
+    height:200px;
+}
+
+#PortImage3 {
+    background-image:url(/assets/images/moth1.png);
+    width:300px;
+    height:200px;
+}
+
+#PortImage4 {
     background-image:url(/assets/images/moth1.png);
     width:300px;
     height:200px;
