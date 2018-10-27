@@ -85,6 +85,7 @@ a {
 
 #Main-Bio {
     width:920px;
+    height:550px;
     margin:35px 0px 60px 175px;
     padding:0px 0px 30px 0px;
     background-color:#F7F7F2;
@@ -96,12 +97,17 @@ a {
 }
 
 #Bio-Image {
-    margin:30px 20px 30px 50px;
+    margin:55px 20px 30px 50px;
     float:left;
+    background-image: url(/assets/images/adamfamilytest2.jpg);
+    width:200px;
+    height:299px;
 }
 
 #Bio-Image:hover {
-    background-image:url();
+    background-image: url(/assets/images/family1.jpg);
+    width:200px;
+    height:250px;
 }
 #Bio-Text {
     margin: 50px 50px 20px 280px;
