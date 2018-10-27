@@ -96,15 +96,15 @@ a {
 }
 
 #Bio-Image {
-    /* margin-top:30px;
-    margin-left:80px; */
     margin:30px 20px 30px 50px;
     float:left;
 }
 
+#Bio-Image:hover {
+    background-image:url();
+}
 #Bio-Text {
     margin: 50px 50px 20px 280px;
-
 }
 
 .clearfix::after {
