@@ -99,16 +99,13 @@ a {
     color:#444349;
 }
 
+.BioLength {
+    height:540px;
+}
+
 #Contact-Info {
     width:30%;
 }
-
-
-.ContactLink:hover, {
-    background-color:#444349;
-    color:#F7F7F2;
-    }
-
 
 #Bio-Image {
     margin:55px 20px 30px 50px;
