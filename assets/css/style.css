@@ -76,6 +76,8 @@ h2 {
 
 ul {
     font-weight:bold;
+    margin-left:10px;
+    
 }
 
 a {
@@ -100,6 +102,13 @@ a {
 #Contact-Info {
     width:30%;
 }
+
+
+.ContactLink:hover {
+    background-color:#444349;
+    color:#F7F7F2;
+    }
+
 
 #Bio-Image {
     margin:55px 20px 30px 50px;
@@ -193,4 +202,39 @@ footer {
     background-image:url(/assets/images/moth1.png);
     width:300px;
     height:200px;
+}
+
+#Contact-Info {
+    width:30%;
+    margin:10px 0px 20px 30px;
+    border-left:1px solid black;
+    float:left;
+}
+
+#Contact-Input {
+    border-left:1px solid black;
+    margin:10px 30px 20px 25px;
+    float:left;
+    width:554px;
+    padding:0px;
+}
+
+.ContOption {
+    width:90%;
+    /* background-color:red; */
+    margin:10px;
+}
+
+label,
+input {
+    width:100%;
+    margin-right:30px;
+} 
+
+#fname,
+#lname,
+#email,
+#comment {
+    margin:10px 10px;
+    
 }
