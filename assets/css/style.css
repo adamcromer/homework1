@@ -230,6 +230,11 @@ input[type=text]:focus {
     color:#444349;
 }
 
+.CommentInput[type=text]:focus {
+    background-color:#dcd6f7;
+    color:#444349;
+}
+
 label,
 input {
     width:100%;
