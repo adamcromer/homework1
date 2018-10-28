@@ -104,7 +104,7 @@ a {
 }
 
 
-.ContactLink:hover {
+.ContactLink:hover, {
     background-color:#444349;
     color:#F7F7F2;
     }
@@ -225,6 +225,11 @@ footer {
     margin:10px;
 }
 
+input[type=text]:focus {
+    background-color:#dcd6f7;
+    color:#444349;
+}
+
 label,
 input {
     width:100%;
@@ -237,4 +242,27 @@ input {
 #comment {
     margin:10px 10px;
     
+}
+
+label {
+    font-weight:bolder;
+}
+.CommentInput {
+    height:200px;
+    width:100%;
+}
+
+.SubmitButton,
+.ResetButton {
+    margin-left:20px;
+}
+
+.SubmitButton {
+    float:left;
+    width:200px;
+}
+
+.ResetButton {
+    float:right;
+    width:100px;
 }

@@ -31,13 +31,13 @@
 
             <section id="Contact-Info">
                 <ul>
-                    <div class=ContactLink">
+                    <div class="ContactLink">
+                    <li>Email: <a href="mailto:adamjorycromer@gmail.com" target="_blank">adamjorycromer@gmail.com</a></li>
                     </div>
-                    <li class="ContactLink">Email: <a href="mailto:adamjorycromer@gmail.com" target="_blank">adamjorycromer@gmail.com</a></li>
-                    <div class=ContactLink">
+                    <div class="ContactLink">
                     <li class="ContactLink">Github: <a href="https://github.com/adamcromer" target="_blank">Adam's Github</a></li>
                     </div>
-                    <div class=ContactLink">
+                    <div class="ContactLink">
                     <li class="ContactLink">Portfolio: <a href="portfolio.html">Adam's Portfolio</a></li>
                     </div>
                 </ul>
@@ -46,20 +46,22 @@
             <div id="Contact-Input">
                 <div class="ContOption">
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" value="John">
+                <input type="text" id="fname" name="fname" placeholder="John">
                 </div>
                 <div class="ContOption">
                 <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" value="Doe">
+                <input type="text" id="lname" name="lname" placeholder="Doe">
                 </div>
                 <div class="ContOption">
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email" value="you@yourwebsite.com">
+                <input type="text" id="email" name="email" placeholder="you@yourwebsite.com">
                 </div>
                 <div class="ContOption">
                 <label for="comment">Comment:</label>
-                <input type="text" id="comment" name="comment" value="">
+                <textarea class="CommentInput type="text" id="comment" name="comment" value=""></textarea>
                 </div>
+                <input class="SubmitButton" type="submit" value="Submit">
+                <input class="ResetButton" type="reset" value="Reset">
             </div>
 
         </section>
