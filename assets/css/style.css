@@ -1,6 +1,6 @@
 body {
     color:#444349;
-    background-image:url(/assets/images/stardust.png);
+    background-image:url(/homework1/assets/images/stardust.png);
     margin:0px;
     padding:0px;
     font-size:18px;
@@ -113,14 +113,14 @@ a {
 #Bio-Image {
     margin:55px 20px 30px 50px;
     float:left;
-    background-image: url(/assets/images/adamfamilytest2.jpg);
+    background-image: url(/homework1/assets/images/adamfamilytest2.jpg);
     width:200px;
     height:299px;
     transition: background-image 0.3s ease;
 }
 
 #Bio-Image:hover {
-    background-image: url(/assets/images/family1.jpg);
+    background-image: url(/homework1/assets/images/family1.jpg);
     width:200px;
     height:250px;
 }
@@ -181,13 +181,13 @@ footer {
 }
 
 #PortImage1 {
-    background-image:url(/assets/images/moth1.png);
+    background-image:url(/homework1/assets/images/moth1.png);
     width:300px;
     height:200px;
 }
 
 #PortImage2 {
-    background-image:url(homework1/assets/images/moth2.png);
+    background-image:url(/homework1/assets/images/moth2.png);
     width:300px;
     height:200px;
 }
@@ -199,7 +199,7 @@ footer {
 }
 
 #PortImage4 {
-    background-image:url(assets/images/moth4.png);
+    background-image:url(/homework1/assets/images/moth4.png);
     width:300px;
     height:200px;
 }
