@@ -141,7 +141,7 @@ footer {
     border-top:5px solid #abc4ab;
     font-style:italic;
     font-size:14px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif;
 }
 
 #Footer-Text {
