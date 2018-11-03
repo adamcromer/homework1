@@ -178,7 +178,7 @@ footer {
 }
 
 #PortImage1 {
-    background-image:url(/homework1/assets/images/moth1.png);
+    background-image:url(../images/moth1.png);
     width:300px;
     height:200px;
 }
